@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Configuratore Pivot</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: "Segoe UI", Arial, sans-serif;
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:
+    linear-gradient(135deg,#111827,#1f2937,#374151);
+    padding:20px;
+}
+
+.container{
+    width:100%;
+    max-width:520px;
+    background:rgba(255,255,255,0.96);
+    backdrop-filter: blur(10px);
+    border-radius:24px;
+    padding:45px 35px;
+    text-align:center;
+    box-shadow:
+    0 20px 60px rgba(0,0,0,0.25);
+}
+
+.logo{
+    width:110px;
+    height:auto;
+    margin-bottom:24px;
+}
+
+h1{
+    font-size:2rem;
+    color:#111827;
+    margin-bottom:12px;
+    font-weight:700;
+    letter-spacing:-0.5px;
+}
+
+.subtitle{
+    color:#6b7280;
+    font-size:1rem;
+    line-height:1.5;
+    margin-bottom:32px;
+}
+
+.btn{
+    display:inline-block;
+    width:100%;
+    padding:16px 22px;
+    background:#111827;
+    color:white;
+    text-decoration:none;
+    border-radius:14px;
+    font-size:1rem;
+    font-weight:600;
+    transition:0.25s ease;
+}
+
+.btn:hover{
+    transform:translateY(-2px);
+    background:#000000;
+    box-shadow:0 12px 25px rgba(0,0,0,0.18);
+}
+
+.footer{
+    margin-top:28px;
+    font-size:0.85rem;
+    color:#9ca3af;
+}
+
+@media(max-width:600px){
+
+    .container{
+        padding:35px 24px;
+        border-radius:20px;
+    }
+
+    .logo{
+        width:90px;
+    }
+
+    h1{
+        font-size:1.6rem;
+    }
+
+    .subtitle{
+        font-size:0.95rem;
+    }
+
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <img src="logo.png" class="logo" alt="Logo">
+
+    <h1>Configuratore Pivot</h1>
+
+    <p class="subtitle">
+        Configura rapidamente materiali, componenti e dettagli
+        dell'impianto pivot in modo semplice e veloce.
+    </p>
+
+    <a href="config.html" class="btn">
+        Entra nel configuratore
+    </a>
+
+    <div class="footer">
+        Sistema interno aziendale
+    </div>
+
+</div>
+
+</body>
+</html>
